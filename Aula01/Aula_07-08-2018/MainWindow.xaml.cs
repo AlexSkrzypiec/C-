@@ -24,5 +24,15 @@ namespace Aula_07_08_2018
         {
             InitializeComponent();
         }
+
+        double acumula = 0;
+        string operador;
+     
+        private void Num_0_Click(object sender, RoutedEventArgs e)
+        {
+            Tela.Text += 0;
+
+
+    }
     }
 }
