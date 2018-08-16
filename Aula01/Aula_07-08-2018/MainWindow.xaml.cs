@@ -25,6 +25,7 @@ namespace Aula_07_08_2018
             InitializeComponent();
         }
 
+        double memoria;
         double acumula = 0;
         string operador;
 
@@ -177,6 +178,7 @@ namespace Aula_07_08_2018
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+        
             int x = display.Text.Length - 1;
             if (x >= 0)
             {
@@ -204,5 +206,10 @@ namespace Aula_07_08_2018
 
                 display.Text = Math.Pow(x, Double.Parse(display.Text)).ToString();
         }
+
+        private void Memo_Click(object sender, RoutedEventArgs e)
+        {
+            
+       }
     }
 }
